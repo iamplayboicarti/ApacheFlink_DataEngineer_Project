@@ -59,7 +59,7 @@ A Kibana dashboard visualizes both **aggregated sales by category** and **raw sa
 
 ```bash
 # Clone repository
-git clone https://github.com/TranNguyenPhucAnh/Apache.Flink.Streaming.For.Sales.Analytics.git
+git clone https://github.com/iamplayboicarti/ApacheFlink_DataEngineer_Project.git
 cd Apache.Flink.Streaming.For.Sales.Analytics
 
 # Build project
