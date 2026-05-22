@@ -7,6 +7,9 @@ The project demonstrates how to ingest sales data from **Kafka**, join it with p
 
 ## 🚀 Project Overview
 
+End-to-End Pipeline Overview
+<img width="1082" height="528" alt="image" src="https://github.com/user-attachments/assets/0041502f-c22d-413f-a972-6e1c44b3e4bd" />
+
 The project reads:
 
 * **Streaming sales data (order\_items)** from a **Kafka topic**
@@ -15,7 +18,13 @@ The project reads:
 * Pushes **aggregated results** to **Elasticsearch** (`category-sales` index)
 * Pushes **raw joined data** to **Elasticsearch** (`order-items-raw` index)
 
+Flink Job Monitoring
+<img width="2431" height="1098" alt="image" src="https://github.com/user-attachments/assets/c20b4867-b710-4d58-80d5-93e60c9bd931" />
+
+
 A Kibana dashboard visualizes both **aggregated sales by category** and **raw sales by product**.
+<img width="2290" height="1056" alt="image" src="https://github.com/user-attachments/assets/c68c1d23-d0af-4e32-85f6-957c20ac7ae2" />
+
 
 ---
 
@@ -227,6 +236,7 @@ scripts/
 * **Kafka**: `confluentinc/cp-kafka:7.4.0`
 * **Elasticsearch**: `docker.elastic.co/elasticsearch/elasticsearch:7.17.0`
 * **Kibana**: `docker.elastic.co/kibana/kibana:7.17.0`
+<img width="2016" height="1130" alt="image" src="https://github.com/user-attachments/assets/af37c3fb-5718-482a-a3a8-74a443406244" />
 
 ---
 
